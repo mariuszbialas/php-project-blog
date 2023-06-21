@@ -1,0 +1,39 @@
+/***************************************************/
+/********** PAGE HEADER AND FOOTER STYLES **********/
+/***************************************************/
+
+body {
+	margin-bottom: 100px;
+}
+
+.pageHeader, .pageFooter {
+	letter-spacing: 0.1em;
+	padding: 25px;	
+	background-color: teal;
+	color: #eee;
+	margin: -8px;
+	box-shadow: inset 20px 10px 25px 0px rgba(51,51,51,0.5);
+}
+.pageHeader {
+	text-align: left;
+	margin-bottom: 50px;
+	font-family: courier new;
+}
+.pageHeader logo {
+	display: inline;
+	font-size: 4em;
+	letter-spacing: -0.15em;
+}
+.pageHeader p {
+	display: inline;
+	padding-left: 25px;
+}
+.pageFooter {
+	text-align: center;
+	font-size: 0.7em;
+	padding: 15px 0;
+	margin-bottom: 0px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}

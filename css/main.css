@@ -1,0 +1,258 @@
+/**********************************/
+/********** BASIC STYLES **********/
+/**********************************/
+
+body {
+	font-family: verdana;
+	font-size: 14px;
+	box-sizing: border-box;
+}
+
+h1 {
+	color: black;
+	padding: 5px 10px;
+	font-size: 1.5em;
+	letter-spacing: 0.05em;
+}
+
+h2, h3, h4, h5 {
+	color: dodgerblue;
+	letter-spacing: 0.05em;
+}
+
+h3, h4, h5 {
+	letter-spacing: 0.01em;
+}
+
+h2 {
+	font-size: 1.3em;
+}
+
+h3 {
+	font-size: 1.1em;
+}
+
+h4, h5 {
+	font-size: 1em;
+	font-weight: normal;
+}
+
+p.small {
+	font-size: 0.7em;
+	color: gray;
+}
+
+hr {
+	height: 1px;
+	border: none;
+	background-color: gray;
+}
+
+
+/******************************************/
+/********** HTML ELEMENTS STYLES **********/
+/******************************************/
+
+/********** COMMON FORMULAR STYLES **********/
+fieldset, input, textarea, select {
+	border-radius: 5px;
+}
+
+fieldset {
+	margin-bottom: 10px;
+}
+
+fieldset fieldset {
+	width: 78%;
+	border: 1px solid gray;
+}
+
+select.day {
+	width: 75px;
+}
+
+select.month {
+	width: 100px;
+}
+
+select.year {
+	width: 75px;
+}
+
+input, textarea {
+	margin: 5px 0;
+	padding: 5px;
+	width: 80%;
+}
+
+textarea {
+	height: 100px;
+	font-family: verdana;
+}
+
+input[type="submit"] {
+	width: 100%;
+}
+
+input.short {
+	width: 125px;
+}
+
+
+/********** TABLES **********/
+table {
+	width: 100%;
+	font-family: courier new;
+	font-size: 0.9em;
+}
+
+table, td {
+	border: 1px solid teal;
+	border-collapse: collapse;
+}
+
+th {
+	background-color: lightblue;
+	padding: 10px;
+}
+
+td {
+	padding: 10px;
+	text-align: center;
+	color: teal;
+}
+
+td:last-child {
+	/* for future use */
+}
+
+tr:nth-child(even) {
+	background-color: #eee;
+}
+
+tr:hover {
+	background-color: #dee;
+}
+
+
+/*****************************/
+/********** CLASSES **********/
+/*****************************/
+
+/********** SPECIAL FORMULARS STYLES **********/
+header {
+	text-align: right;
+}
+
+form.login {
+	width: 435px;
+}
+
+
+/********** FLOATING **********/
+.fleft {
+	float: left;
+}
+
+.fright {
+	float: right;
+}
+
+.clearer {
+	clear: both;
+	width: 0px;
+	height: 0px;
+}
+
+
+/********** USER MESSAGES STYLES **********/
+.error {
+	color: red;
+}
+
+.success {
+	color: green;
+}
+
+.info {
+	color: darkorange;
+}
+
+.marker {
+	color: darkred;
+	font-size: 1.1em;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+
+
+/******************************************/
+/**************** MY CSS ******************/
+/******************************************/
+
+/* section INDEX.PHP */
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+main {
+	width: 65%;
+	margin-left: 10px;
+}
+
+.blog-content {
+	width: 100%;
+	padding: 20px;
+}
+
+.blog-content img {
+	width: 100%;
+	max-width: 300px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+aside {
+	width: 25%;
+	margin-right: 10px;
+}
+
+.blog-category {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 40px 20px;
+}
+
+/* section DASHBOARD.PHP */
+
+.container {
+	margin-inline: 10px;
+	width: 100%;
+}
+
+.container section:first-child {
+	width: 60%;
+}
+
+.container section:last-child {
+	width: 30%;
+	margin-right: 20px;
+}
+
+.bild-upload {
+	display: flex;
+	width: 80%;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+section select {
+	height: 1.5rem;
+}
